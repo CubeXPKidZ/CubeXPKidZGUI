@@ -326,4 +326,5 @@ return NewInstance
 end)()
 ChildInstance.Parent = NewInstance
  
-NewInstance.Parent = game:GetService('CoreGui') or game:GetService('Players').LocalPlayer:WaitForChild('PlayerGui')
+NewInstance.Parent = (getgui and getgui()) or game:GetService("CoreGui") or game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui")
+
