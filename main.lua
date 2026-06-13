@@ -1,330 +1,145 @@
-local NewInstance = Instance.new('ScreenGui')
-NewInstance.Name = 'CubeXPKidZGUI'
-local ChildInstance = (function()
-local NewInstance = Instance.new('Frame')
-NewInstance.Name = 'Frame'
-NewInstance.Size = UDim2.new({0, 692}, {0, 387})
-NewInstance.Position = UDim2.new({0.109629191, 0}, {0.0519829951, 0})
-NewInstance.BackgroundColor3 = Color3.new(0.784314, 0, 0)
-NewInstance.Visible = true
-local ChildInstance = (function()
-local NewInstance = Instance.new('TextLabel')
-NewInstance.Name = 'TextLabel'
-NewInstance.Size = UDim2.new({0, 473}, {0, 79})
-NewInstance.Position = UDim2.new({0.166574866, 0}, {-0.0137509583, 0})
-NewInstance.BackgroundColor3 = Color3.new(1, 1, 1)
-NewInstance.TextColor3 = Color3.new(1, 1, 1)
-NewInstance.Text = 'CubeXPKidZGUI'
-NewInstance.Visible = true
-return NewInstance
-end)()
-ChildInstance.Parent = NewInstance
-local ChildInstance = (function()
-local NewInstance = Instance.new('TextButton')
-NewInstance.Name = 'c00lFlyButton'
-NewInstance.Size = UDim2.new({0, 70}, {0, 45})
-NewInstance.Position = UDim2.new({0.0093625905, 0}, {0.832784891, 0})
-NewInstance.BackgroundColor3 = Color3.new(1, 1, 1)
-NewInstance.TextColor3 = Color3.new(1, 1, 1)
-NewInstance.Text = 'FLING URSELF'
-NewInstance.Visible = true
-return NewInstance
-end)()
-ChildInstance.Parent = NewInstance
-local ChildInstance = (function()
-local NewInstance = Instance.new('TextButton')
-NewInstance.Name = 'WalkSpeedButton'
-NewInstance.Size = UDim2.new({0, 82}, {0, 50})
-NewInstance.Position = UDim2.new({0.0114065185, 0}, {0.188933536, 0})
-NewInstance.BackgroundColor3 = Color3.new(1, 1, 1)
-NewInstance.TextColor3 = Color3.new(1, 1, 1)
-NewInstance.Text = 'WALKSPEED'
-NewInstance.Visible = true
-return NewInstance
-end)()
-ChildInstance.Parent = NewInstance
-local ChildInstance = (function()
-local NewInstance = Instance.new('TextButton')
-NewInstance.Name = 'JumpPowerButton'
-NewInstance.Size = UDim2.new({0, 86}, {0, 45})
-NewInstance.Position = UDim2.new({0.0102924947, 0}, {0.269584715, 0})
-NewInstance.BackgroundColor3 = Color3.new(1, 1, 1)
-NewInstance.TextColor3 = Color3.new(1, 1, 1)
-NewInstance.Text = 'JUMPPOWER'
-NewInstance.Visible = true
-return NewInstance
-end)()
-ChildInstance.Parent = NewInstance
-local ChildInstance = (function()
-local NewInstance = Instance.new('TextButton')
-NewInstance.Name = 'SitButton'
-NewInstance.Size = UDim2.new({0, 70}, {0, 45})
-NewInstance.Position = UDim2.new({0.00442681275, 0}, {0.340554118, 0})
-NewInstance.BackgroundColor3 = Color3.new(1, 1, 1)
-NewInstance.TextColor3 = Color3.new(1, 1, 1)
-NewInstance.Text = 'Sit'
-NewInstance.Visible = true
-return NewInstance
-end)()
-ChildInstance.Parent = NewInstance
-local ChildInstance = (function()
-local NewInstance = Instance.new('TextButton')
-NewInstance.Name = 'LayDownButton'
-NewInstance.Size = UDim2.new({0, 110}, {0, 26})
-NewInstance.Position = UDim2.new({0.089292407, 0}, {0.364468753, 0})
-NewInstance.BackgroundColor3 = Color3.new(1, 1, 1)
-NewInstance.TextColor3 = Color3.new(1, 1, 1)
-NewInstance.Text = 'Lay Down'
-NewInstance.Visible = true
-return NewInstance
-end)()
-ChildInstance.Parent = NewInstance
-local ChildInstance = (function()
-local NewInstance = Instance.new('TextButton')
-NewInstance.Name = 'TPButton'
-NewInstance.Size = UDim2.new({0, 149}, {0, 45})
-NewInstance.Position = UDim2.new({0.011341867, 0}, {0.458056033, 0})
-NewInstance.BackgroundColor3 = Color3.new(1, 1, 1)
-NewInstance.TextColor3 = Color3.new(1, 1, 1)
-NewInstance.Text = 'TP TO MOUSE'
-NewInstance.Visible = true
-return NewInstance
-end)()
-ChildInstance.Parent = NewInstance
-local ChildInstance = (function()
-local NewInstance = Instance.new('TextLabel')
-NewInstance.Name = 'TextLabel'
-NewInstance.Size = UDim2.new({0, 209}, {0, 25})
-NewInstance.Position = UDim2.new({0.0198493991, 0}, {0.15317826, 0})
-NewInstance.BackgroundColor3 = Color3.new(1, 1, 1)
-NewInstance.TextColor3 = Color3.new(1, 1, 1)
-NewInstance.Text = 'https://discord.gg/Cc3PZ4679K'
-NewInstance.Visible = true
-return NewInstance
-end)()
-ChildInstance.Parent = NewInstance
-local ChildInstance = (function()
-local NewInstance = Instance.new('TextButton')
-NewInstance.Name = 'InfiniteJumpButton'
-NewInstance.Size = UDim2.new({0, 112}, {0, 26})
-NewInstance.Position = UDim2.new({0.12770848, 0}, {0.821795404, 0})
-NewInstance.BackgroundColor3 = Color3.new(1, 1, 1)
-NewInstance.TextColor3 = Color3.new(1, 1, 1)
-NewInstance.Text = 'INFINITE JUMP'
-NewInstance.Visible = true
-return NewInstance
-end)()
-ChildInstance.Parent = NewInstance
-local ChildInstance = (function()
-local NewInstance = Instance.new('TextBox')
-NewInstance.Name = 'WalkSpeedBox'
-NewInstance.Size = UDim2.new({0, 157}, {0, 24})
-NewInstance.Position = UDim2.new({0.1452007, 0}, {0.224553078, 0})
-NewInstance.BackgroundColor3 = Color3.new(1, 1, 1)
-NewInstance.TextColor3 = Color3.new(1, 1, 1)
-NewInstance.Text = 'WALKSPEED: (default is 16)'
-NewInstance.Visible = true
-NewInstance.PlaceholderText = 'WALKSPEED:'
-return NewInstance
-end)()
-ChildInstance.Parent = NewInstance
-local ChildInstance = (function()
-local NewInstance = Instance.new('TextBox')
-NewInstance.Name = 'JumpPowerBox'
-NewInstance.Size = UDim2.new({0, 173}, {0, 29})
-NewInstance.Position = UDim2.new({0.134569988, 0}, {0.288874507, 0})
-NewInstance.BackgroundColor3 = Color3.new(1, 1, 1)
-NewInstance.TextColor3 = Color3.new(1, 1, 1)
-NewInstance.Text = 'JUMPPOWER (default is 50'
-NewInstance.Visible = true
-NewInstance.PlaceholderText = 'JUMPOWER:'
-return NewInstance
-end)()
-ChildInstance.Parent = NewInstance
-local ChildInstance = (function()
-local NewInstance = Instance.new('TextLabel')
-NewInstance.Name = 'TextLabel'
-NewInstance.Size = UDim2.new({0, 250}, {0, 31})
-NewInstance.Position = UDim2.new({0.556781471, 0}, {0.144449711, 0})
-NewInstance.BackgroundColor3 = Color3.new(1, 1, 1)
-NewInstance.TextColor3 = Color3.new(1, 1, 1)
-NewInstance.Text = 'made by @cubexpkidz on discord'
-NewInstance.Visible = true
-return NewInstance
-end)()
-ChildInstance.Parent = NewInstance
-local ChildInstance = (function()
-local NewInstance = Instance.new('TextLabel')
-NewInstance.Name = 'TextLabel'
-NewInstance.Size = UDim2.new({0, 236}, {0, 55})
-NewInstance.Position = UDim2.new({0.60059303, 0}, {0.223781437, 0})
-NewInstance.BackgroundColor3 = Color3.new(1, 1, 1)
-NewInstance.TextColor3 = Color3.new(1, 1, 1)
-NewInstance.Text = '!THESE COMMANDS SUPPORT R6 AND R15!'
-NewInstance.Visible = true
-return NewInstance
-end)()
-ChildInstance.Parent = NewInstance
-local ChildInstance = (function()
-local NewInstance = Instance.new('TextLabel')
-NewInstance.Name = 'TextLabel'
-NewInstance.Size = UDim2.new({0, 236}, {0, 55})
-NewInstance.Position = UDim2.new({0.581089497, 0}, {0.381103784, 0})
-NewInstance.BackgroundColor3 = Color3.new(1, 1, 1)
-NewInstance.TextColor3 = Color3.new(1, 1, 1)
-NewInstance.Text = '!REPORT ERRORS ON MY DISCORD SERVER ILL TRY TO FIX IT! https://discord.gg/Cc3PZ4679K'
-NewInstance.Visible = true
-return NewInstance
-end)()
-ChildInstance.Parent = NewInstance
-local ChildInstance = (function()
-local NewInstance = Instance.new('TextButton')
-NewInstance.Name = 'StandButton'
-NewInstance.Size = UDim2.new({0, 139}, {0, 31})
-NewInstance.Position = UDim2.new({0.225626156, 0}, {0.363997817, 0})
-NewInstance.BackgroundColor3 = Color3.new(1, 1, 1)
-NewInstance.TextColor3 = Color3.new(1, 1, 1)
-NewInstance.Text = 'STAND UP'
-NewInstance.Visible = true
-return NewInstance
-end)()
-ChildInstance.Parent = NewInstance
-local ChildInstance = (function()
-local NewInstance = Instance.new('TextLabel')
-NewInstance.Name = 'TextLabel'
-NewInstance.Size = UDim2.new({0, 236}, {0, 55})
-NewInstance.Position = UDim2.new({0.581089377, 0}, {0.518197715, 0})
-NewInstance.BackgroundColor3 = Color3.new(1, 1, 1)
-NewInstance.TextColor3 = Color3.new(1, 1, 1)
-NewInstance.Text = 'MORE SCRIPTS COMING SOON https://discord.gg/Cc3PZ4679K'
-NewInstance.Visible = true
-return NewInstance
-end)()
-ChildInstance.Parent = NewInstance
-local ChildInstance = (function()
-local NewInstance = Instance.new('TextLabel')
-NewInstance.Name = 'TextLabel'
-NewInstance.Size = UDim2.new({0, 236}, {0, 77})
-NewInstance.Position = UDim2.new({0.581089377, 0}, {0.660291612, 0})
-NewInstance.BackgroundColor3 = Color3.new(1, 1, 1)
-NewInstance.TextColor3 = Color3.new(1, 1, 1)
-NewInstance.Text = 'IF THERE IS A PROBLEM WITH THE GUI LET ME KNOW IN CHANNEL #cubexpkidz-gui ON MY DISCORD SERVER'
-NewInstance.Visible = true
-return NewInstance
-end)()
-ChildInstance.Parent = NewInstance
-local ChildInstance = (function()
-local NewInstance = Instance.new('TextLabel')
-NewInstance.Name = 'TextLabel'
-NewInstance.Size = UDim2.new({0, 236}, {0, 55})
-NewInstance.Position = UDim2.new({0.567145109, 0}, {0.821941137, 0})
-NewInstance.BackgroundColor3 = Color3.new(1, 1, 1)
-NewInstance.TextColor3 = Color3.new(1, 1, 1)
-NewInstance.Text = 'https://discord.gg/Cc3PZ4679K'
-NewInstance.Visible = true
-return NewInstance
-end)()
-ChildInstance.Parent = NewInstance
-local ChildInstance = (function()
-local NewInstance = Instance.new('TextButton')
-NewInstance.Name = 'UnInfiniteJumpButton'
-NewInstance.Size = UDim2.new({0, 112}, {0, 26})
-NewInstance.Position = UDim2.new({0.126726091, 0}, {0.896865189, 0})
-NewInstance.BackgroundColor3 = Color3.new(1, 1, 1)
-NewInstance.TextColor3 = Color3.new(1, 1, 1)
-NewInstance.Text = 'UNINFINITE JUMP'
-NewInstance.Visible = true
-return NewInstance
-end)()
-ChildInstance.Parent = NewInstance
-local ChildInstance = (function()
-local NewInstance = Instance.new('TextButton')
-NewInstance.Name = 'ESPButton'
-NewInstance.Size = UDim2.new({0, 77}, {0, 41})
-NewInstance.Position = UDim2.new({0.257772446, 0}, {0.448193848, 0})
-NewInstance.BackgroundColor3 = Color3.new(1, 1, 1)
-NewInstance.TextColor3 = Color3.new(1, 1, 1)
-NewInstance.Text = 'ESP (havent tested)'
-NewInstance.Visible = true
-return NewInstance
-end)()
-ChildInstance.Parent = NewInstance
-local ChildInstance = (function()
-local NewInstance = Instance.new('TextButton')
-NewInstance.Name = 'UnESPButton'
-NewInstance.Size = UDim2.new({0, 72}, {0, 37})
-NewInstance.Position = UDim2.new({0.410110831, 0}, {0.443420619, 0})
-NewInstance.BackgroundColor3 = Color3.new(1, 1, 1)
-NewInstance.TextColor3 = Color3.new(1, 1, 1)
-NewInstance.Text = 'UNESP'
-NewInstance.Visible = true
-return NewInstance
-end)()
-ChildInstance.Parent = NewInstance
-local ChildInstance = (function()
-local NewInstance = Instance.new('TextButton')
-NewInstance.Name = 'UnTPButton'
-NewInstance.Size = UDim2.new({0, 156}, {0, 37})
-NewInstance.Position = UDim2.new({0.00551455282, 0}, {0.562907457, 0})
-NewInstance.BackgroundColor3 = Color3.new(1, 1, 1)
-NewInstance.TextColor3 = Color3.new(1, 1, 1)
-NewInstance.Text = 'REMOVE TP TO MOUSE'
-NewInstance.Visible = true
-return NewInstance
-end)()
-ChildInstance.Parent = NewInstance
-local ChildInstance = (function()
-local NewInstance = Instance.new('TextButton')
-NewInstance.Name = 'RealFlyButton'
-NewInstance.Size = UDim2.new({0, 70}, {0, 45})
-NewInstance.Position = UDim2.new({0.0117362803, 0}, {0.633469701, 0})
-NewInstance.BackgroundColor3 = Color3.new(1, 1, 1)
-NewInstance.TextColor3 = Color3.new(1, 1, 1)
-NewInstance.Text = 'real fly'
-NewInstance.Visible = true
-return NewInstance
-end)()
-ChildInstance.Parent = NewInstance
-local ChildInstance = (function()
-local NewInstance = Instance.new('TextButton')
-NewInstance.Name = 'RealUnFlyButton'
-NewInstance.Size = UDim2.new({0, 84}, {0, 34})
-NewInstance.Position = UDim2.new({0.128020972, 0}, {0.64583391, 0})
-NewInstance.BackgroundColor3 = Color3.new(1, 1, 1)
-NewInstance.TextColor3 = Color3.new(1, 1, 1)
-NewInstance.Text = 'real unfly'
-NewInstance.Visible = true
-return NewInstance
-end)()
-ChildInstance.Parent = NewInstance
-local ChildInstance = (function()
-local NewInstance = Instance.new('TextBox')
-NewInstance.Name = 'RealFlyBox'
-NewInstance.Size = UDim2.new({0, 139}, {0, 30})
-NewInstance.Position = UDim2.new({0.00551455282, 0}, {0.733689189, 0})
-NewInstance.BackgroundColor3 = Color3.new(1, 1, 1)
-NewInstance.TextColor3 = Color3.new(1, 1, 1)
-NewInstance.Text = ''
-NewInstance.Visible = true
-NewInstance.PlaceholderText = 'Real Fly SPEED'
-return NewInstance
-end)()
-ChildInstance.Parent = NewInstance
-local ChildInstance = (function()
-local NewInstance = Instance.new('TextLabel')
-NewInstance.Name = 'TextLabel'
-NewInstance.Size = UDim2.new({0, 236}, {0, 55})
-NewInstance.Position = UDim2.new({0.230439901, 0}, {0.715997994, 0})
-NewInstance.BackgroundColor3 = Color3.new(1, 1, 1)
-NewInstance.TextColor3 = Color3.new(1, 1, 1)
-NewInstance.Text = 'HOLD CTRL (left or right) AND LEFT CLICK = TP RELEASE CTRL = NORMAL CLICKING'
-NewInstance.Visible = true
-return NewInstance
-end)()
-ChildInstance.Parent = NewInstance
-return NewInstance
-end)()
-ChildInstance.Parent = NewInstance
- 
-NewInstance.Parent = (getgui and getgui()) or game:GetService("CoreGui") or game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui")
+-- REBUILT AND HOOKED UP CUBEXP_KIDZ_GUI
+local CoreGui = game:GetService("CoreGui")
+local Players = game:GetService("Players")
+local UserInputService = game:GetService("UserInputService")
+local LocalPlayer = Players.LocalPlayer
 
+local TargetParent = (getgui and getgui()) or CoreGui or LocalPlayer:WaitForChild("PlayerGui")
+
+-- Prevent duplication
+if TargetParent:FindFirstChild("CubeXPKidZGUI") then
+    TargetParent:FindFirstChild("CubeXPKidZGUI"):Destroy()
+end
+
+-- Main Setup
+local ScreenGui = Instance.new("ScreenGui")
+ScreenGui.Name = "CubeXPKidZGUI"
+ScreenGui.ResetOnSpawn = false
+ScreenGui.Parent = TargetParent
+
+local MainFrame = Instance.new("Frame")
+MainFrame.Name = "Frame"
+MainFrame.Size = UDim2.new(0, 692, 0, 387)
+MainFrame.Position = UDim2.new(0.11, 0, 0.05, 0)
+MainFrame.BackgroundColor3 = Color3.new(0.784, 0, 0)
+MainFrame.Active = true
+MainFrame.Draggable = true
+MainFrame.Parent = ScreenGui
+
+-- UI Labels
+local TitleLabel = Instance.new("TextLabel")
+TitleLabel.Size = UDim2.new(0, 473, 0, 79)
+TitleLabel.Position = UDim2.new(0.166, 0, -0.013, 0)
+TitleLabel.BackgroundColor3 = Color3.new(0.5, 0, 0)
+TitleLabel.TextColor3 = Color3.new(1, 1, 1)
+TitleLabel.Text = "CubeXPKidZGUI"
+TitleLabel.TextSize = 24
+TitleLabel.Parent = MainFrame
+
+local CreditsLabel = Instance.new("TextLabel")
+CreditsLabel.Size = UDim2.new(0, 250, 0, 31)
+CreditsLabel.Position = UDim2.new(0.556, 0, 0.144, 0)
+CreditsLabel.BackgroundColor3 = Color3.new(0.5, 0, 0)
+CreditsLabel.TextColor3 = Color3.new(1, 1, 1)
+CreditsLabel.Text = "made by @cubexpkidz on discord"
+CreditsLabel.Parent = MainFrame
+
+-- Walkspeed Configurations
+local WalkSpeedBox = Instance.new("TextBox")
+WalkSpeedBox.Size = UDim2.new(0, 157, 0, 24)
+WalkSpeedBox.Position = UDim2.new(0.145, 0, 0.224, 0)
+WalkSpeedBox.Text = "16"
+WalkSpeedBox.PlaceholderText = "WALKSPEED:"
+WalkSpeedBox.Parent = MainFrame
+
+local WalkSpeedButton = Instance.new("TextButton")
+WalkSpeedButton.Size = UDim2.new(0, 82, 0, 50)
+WalkSpeedButton.Position = UDim2.new(0.011, 0, 0.188, 0)
+WalkSpeedButton.Text = "WALKSPEED"
+WalkSpeedButton.Parent = MainFrame
+
+WalkSpeedButton.MouseButton1Click:Connect(function()
+    local hum = LocalPlayer.Character and LocalPlayer.Character:FindFirstChildOfClass("Humanoid")
+    if hum then hum.WalkSpeed = tonumber(WalkSpeedBox.Text) or 16 end
+end)
+
+-- JumpPower Configurations
+local JumpPowerBox = Instance.new("TextBox")
+JumpPowerBox.Size = UDim2.new(0, 173, 0, 29)
+JumpPowerBox.Position = UDim2.new(0.134, 0, 0.288, 0)
+JumpPowerBox.Text = "50"
+JumpPowerBox.PlaceholderText = "JUMPOWER:"
+JumpPowerBox.Parent = MainFrame
+
+local JumpPowerButton = Instance.new("TextButton")
+JumpPowerButton.Size = UDim2.new(0, 86, 0, 45)
+JumpPowerButton.Position = UDim2.new(0.01, 0, 0.269, 0)
+JumpPowerButton.Text = "JUMPPOWER"
+JumpPowerButton.Parent = MainFrame
+
+JumpPowerButton.MouseButton1Click:Connect(function()
+    local hum = LocalPlayer.Character and LocalPlayer.Character:FindFirstChildOfClass("Humanoid")
+    if hum then 
+        hum.UseJumpPower = true
+        hum.JumpPower = tonumber(JumpPowerBox.Text) or 50 
+    end
+end)
+
+-- Character Controls
+local SitButton = Instance.new("TextButton")
+SitButton.Size = UDim2.new(0, 70, 0, 45)
+SitButton.Position = UDim2.new(0.004, 0, 0.34)
+SitButton.Text = "Sit"
+SitButton.Parent = MainFrame
+
+SitButton.MouseButton1Click:Connect(function()
+    local hum = LocalPlayer.Character and LocalPlayer.Character:FindFirstChildOfClass("Humanoid")
+    if hum then hum.Sit = true end
+end)
+
+local StandButton = Instance.new("TextButton")
+StandButton.Size = UDim2.new(0, 139, 0, 31)
+StandButton.Position = UDim2.new(0.225, 0, 0.363, 0)
+StandButton.Text = "STAND UP"
+StandButton.Parent = MainFrame
+
+StandButton.MouseButton1Click:Connect(function()
+    local hum = LocalPlayer.Character and LocalPlayer.Character:FindFirstChildOfClass("Humanoid")
+    if hum then hum.Sit = false end
+end)
+
+-- Teleport to Mouse
+local TPButton = Instance.new("TextButton")
+TPButton.Size = UDim2.new(0, 149, 0, 45)
+TPButton.Position = UDim2.new(0.011, 0, 0.458, 0)
+TPButton.Text = "TP TO MOUSE"
+TPButton.Parent = MainFrame
+
+TPButton.MouseButton1Click:Connect(function()
+    local mouse = LocalPlayer:GetMouse()
+    if LocalPlayer.Character and LocalPlayer.Character:FindFirstChild("HumanoidRootPart") then
+        LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(mouse.Hit.Position + Vector3.new(0, 3, 0))
+    end
+end)
+
+-- Infinite Jump Action
+local InfiniteJumpButton = Instance.new("TextButton")
+InfiniteJumpButton.Size = UDim2.new(0, 112, 0, 26)
+InfiniteJumpButton.Position = UDim2.new(0.127, 0, 0.821, 0)
+InfiniteJumpButton.Text = "INFINITE JUMP"
+InfiniteJumpButton.Parent = MainFrame
+
+local infJumpEnabled = false
+InfiniteJumpButton.MouseButton1Click:Connect(function()
+    infJumpEnabled = not infJumpEnabled
+    InfiniteJumpButton.BackgroundColor3 = infJumpEnabled and Color3.new(0, 1, 0) or Color3.new(1, 1, 1)
+end)
+
+game:GetService("UserInputService").JumpRequest:Connect(function()
+    if infJumpEnabled then
+        local hum = LocalPlayer.Character and LocalPlayer.Character:FindFirstChildOfClass("Humanoid")
+        if hum then hum:ChangeState(Enum.HumanoidStateType.Jumping) end
+    end
+end)
+
+print("CubeXPKidZGUI compiled and functional!")
